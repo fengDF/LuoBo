@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 224994618428013488}
   - component: {fileID: 114915966920949198}
   - component: {fileID: 222742208838344988}
-  - component: {fileID: 114362158266000240}
+  - component: {fileID: 114605232346541636}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
@@ -637,21 +637,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114362158266000240
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1266862184010172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f58892f128789f49b9a22b5cd46ea65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cellLength: 1100
-  spacing: 400
-  leftOffset: 300
-  allItemNumber: 3
 --- !u!114 &114390844134581458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -897,6 +882,21 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114605232346541636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1266862184010172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b410d9c71280bdf4d8a2ed43accef8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellLength: 1100
+  spacing: 400
+  leftOffset: 300
+  allItemNumber: 3
 --- !u!114 &114662042643950628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_Vertical: 0
   m_MovementType: 1
   m_Elasticity: 0.1
-  m_Inertia: 1
+  m_Inertia: 0
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 1
   m_Viewport: {fileID: 224452259647067590}
